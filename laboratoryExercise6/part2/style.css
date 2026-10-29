@@ -1,0 +1,48 @@
+/* External CSS */
+hr {
+    margin: 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.topBot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerContent small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#footerContent small a:hover{
+    transform: scale(1.25);
+    color: red;
+}
+
+h1, small a {
+    display: inline-block;
+    font-family: cursive;
+    font-size: larger;
+    transition: transform 0.1s ease-in-out;
+}
+
+section p {
+    text-align: center;
+}
+
+section p mark{
+    color: black;
+}
+
